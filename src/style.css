@@ -1,9 +1,10 @@
 .label {
   display: block;
+  margin-top: 10px;
 }
 
-.label + .label {
-  margin-top: 10px;
+.label:first-child {
+  margin-top: 0;
 }
 
 .fieldset {
